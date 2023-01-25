@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 20px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+nav button {
+  background-color: #0d10ca;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+}
